@@ -3,8 +3,8 @@ export class GalacticAge {
     this.age = age;
   }
   
-  // mercuryYears() {
-  //   this.age *=.24
-  // }
+  mercuryYears() {
+   return this.age /= .24
+  }
 
 }
