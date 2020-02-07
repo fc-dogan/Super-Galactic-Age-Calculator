@@ -12,7 +12,7 @@ export class GalacticAge {
   }
 
   marsYears() {
-    // return this.age = Math.round(this.age /= 1.88);
+    return this.age = Math.round(this.age /= 1.88);
   }
 
 }
