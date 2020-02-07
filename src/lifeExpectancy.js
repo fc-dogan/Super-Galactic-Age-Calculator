@@ -1,7 +1,7 @@
 export class LifeExpectancy {
   constructor(){
     this.gender = ""
-    // this.smoking = ""
+    this.smoking = ""
     // this.activityLevel = ""
     // this.avarageLife = 78;
   }
