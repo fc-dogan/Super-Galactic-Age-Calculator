@@ -8,14 +8,19 @@ describe('GalacticAge', () => {
   });
 
   test('should correctly calculate age as a Mercury age', () => {
-    var galacticAge = new GalacticAge(30)
+    var galacticAge = new GalacticAge(30);
     expect(galacticAge.mercuryYears()).toEqual(125);
   });
 
   test('should correctly calculate age as a Venus age', () => {
-    var galacticAge = new GalacticAge(30)
+    var galacticAge = new GalacticAge(30);
     expect(galacticAge.venusYears()).toEqual(48);
   });
+
+  test('should correctly calculate age as a Mars age', () => {
+    var galacticAge = new GalacticAge(30);
+    expect(galacticAge.marsYears()).toEqual(16);
+  })
 
 
 });
