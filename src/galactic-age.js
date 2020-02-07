@@ -1,4 +1,4 @@
-class GalacticAge {
+export class GalacticAge {
   constructor(age){
 
   }
