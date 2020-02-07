@@ -25,6 +25,17 @@ Website application that takes a person's age in years and return their age in M
     * __Input:__ 30
     * __Output:__ 3
 
+* The program determines the user's average life expectancy based on information that is collect from the user.
+
+* It determines the average life from user gender.
+    * __Input:__ "male"
+    * __Output:__ 78
+* It determines the average life according to the user's smoking status .
+    * __Input:__ "never"
+    * __Output:__ 80
+* It determines the average life according to the user's activity level.
+    * __Input:__ "moderate"
+    * __Output:__ 80
 
 ## Setup
 
