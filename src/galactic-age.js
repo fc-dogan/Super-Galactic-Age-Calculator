@@ -4,7 +4,11 @@ export class GalacticAge {
   }
   
   mercuryYears() {
-   return this.age /= .24
+   return this.age /= .24;
+  }
+
+  venusYears() {
+   return this.age = Math.floor(this.age /= .62);
   }
 
 }

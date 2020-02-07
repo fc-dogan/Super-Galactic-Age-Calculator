@@ -14,7 +14,7 @@ describe('GalacticAge', () => {
 
   test('should correctly calculate age as a Venus age', () => {
     var galacticAge = new GalacticAge(30)
-    expect(galacticAge.venusYears()).toEqual(49);
+    expect(galacticAge.venusYears()).toEqual(48);
   });
 
 
