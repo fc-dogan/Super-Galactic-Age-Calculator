@@ -28,7 +28,13 @@ export class LifeExpectancy {
 
    checkActivity(activityLevel) {
      this.activityLevel = activityLevel;
-
+    if(this.activityLevel === "sedentary"){
+      this.avarageLife; 
+    }else if(this.activityLevel === "moderate"){
+      this.avarageLife += 2;
+    } else if(this.activityLevel === "high"){
+      this.avarageLife += 3;
+    }
    }
 
 }
