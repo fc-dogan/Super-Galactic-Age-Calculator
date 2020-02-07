@@ -6,14 +6,14 @@ export class LifeExpectancy {
     this.avarageLife = 78;
   }
 
-  // checkGender() {
+  checkGender(gender) {
   //   this.gender = gender;
   //   if(this.gender === "female"){
   //     this.avarageLife += 4;
   //   } else {
   //     this.avarageLife;
   //   }
-  // }
+   }
 
   // checkSmoking() {
   //   this.smoking = smoking;

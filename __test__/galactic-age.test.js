@@ -49,4 +49,10 @@ describe('LifeExpectancy', () => {
     console.log(lifeExpectancy.avarageLife);
   });
 
+  test('should correctly determine avarageLife based on gender', () => {
+    var gender = "female"
+    expect(lifeExpectancy.checkGender(gender)).toEqual("female");
+
+  });
+
 });
