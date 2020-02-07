@@ -82,4 +82,8 @@ describe('GalacticYearsLeft', () => {
     expect(galacticYearsLeft.yearsLeft).toEqual(48);
   });
 
+  test('shoul correctly determines how many years user left', () => {
+    expect(galacticYearsLeft.checkYearsLeft()).toEqual(48);
+  });
+
 });
