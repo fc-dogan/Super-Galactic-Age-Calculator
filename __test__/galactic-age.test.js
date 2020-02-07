@@ -1,5 +1,6 @@
 import { GalacticAge } from './../src/galactic-age';
 import { LifeExpectancy } from './../src/lifeExpectancy';
+import { GalacticYearsLeft } from './../src/galactic-years-left';
 
 describe('GalacticAge', () => {
 
@@ -64,6 +65,21 @@ describe('LifeExpectancy', () => {
     lifeExpectancy.checkActivity("moderate");
     expect(lifeExpectancy.avarageLife).toEqual(80);
     console.log(lifeExpectancy.avarageLife);
+  });
+
+});
+
+describe('GalacticYearsLeft', () => {
+
+  var galacticYearsLeft;
+
+  beforeEach(() => {
+    galacticYearsLeft = new GalacticYearsLeft(30, 48);
+  });
+
+  test('should correctly create GalaticYearsLeft object with two properties', () => {
+    expect(galacticYearsLeft.age).toEqual(30);
+    expect(galacticYearsLeft.yearsLeft).toEqual(48);
   });
 
 });
