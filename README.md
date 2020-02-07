@@ -1,4 +1,4 @@
-# _Super Galactic Age Calculator_
+# _Galactic Age Calculator_
 
 ### _Website application that determines a user’s age based on a planet’s solar years._
 
@@ -10,7 +10,21 @@ Website application that takes a person's age in years and return their age in M
 
 ## Specifications
 
-* 
+* The program determines user's age based on a planet's solar years.
+
+* Return user age in Mercury years. 
+    * __Input:__ 30
+    * __Output:__ 125
+* Return user age in Venus years. 
+    * __Input:__ 30
+    * __Output:__ 49
+* Return user age in Mars years. 
+    * __Input:__ 30
+    * __Output:__ 16
+* Return user age in Jupiter years. 
+    * __Input:__ 30
+    * __Output:__ 3
+
 
 ## Setup
 
