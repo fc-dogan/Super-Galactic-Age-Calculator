@@ -54,4 +54,10 @@ describe('LifeExpectancy', () => {
     expect(lifeExpectancy.avarageLife).toEqual(82);
   });
 
+  test('should correctly determine avarageLife based on smoking', () => {
+    lifeExpectancy.checkSmoking("never");
+    expect(lifeExpectancy.avarageLife).toEqual(80);
+
+  });
+
 });

@@ -15,11 +15,11 @@ export class LifeExpectancy {
     }
    }
 
-  // checkSmoking() {
-  //   this.smoking = smoking;
+  checkSmoking(smoking) {
+    this.smoking = smoking;
   //   if (this.smoking === "never"){
   //     this.avarageLife += 2;
   //   } else if 
-  // }
+   }
 
 }
