@@ -9,7 +9,7 @@ export class LifeExpectancy {
   checkGender(gender) {
     this.gender = gender;
     if(this.gender === "female"){
-      return this.avarageLife += 4;
+       this.avarageLife += 4;
     } else {
       this.avarageLife;
     }
@@ -24,6 +24,11 @@ export class LifeExpectancy {
     } else {
       this.avarageLife -= 4;
     }
+   }
+
+   checkActivity(activityLevel) {
+     this.activityLevel = activityLevel;
+
    }
 
 }

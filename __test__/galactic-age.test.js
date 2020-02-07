@@ -60,4 +60,10 @@ describe('LifeExpectancy', () => {
     console.log(lifeExpectancy.avarageLife);
   });
 
+  test('should correctly determine avarageLife based on activity level', () => {
+    lifeExpectancy.checkActivity("moderate");
+    expect(lifeExpectancy.avarageLife).toEqual(80);
+    console.log(lifeExpectancy.avarageLife);
+  });
+
 });
