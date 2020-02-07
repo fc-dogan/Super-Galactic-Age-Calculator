@@ -6,5 +6,11 @@ describe('GalacticAge', () => {
     var galacticAge = new GalacticAge(30);
     expect(galacticAge.age).toEqual(30);
   });
-  
+
+  test('should correctly calculate age as a Mercury age', () => {
+    var galacticAge = new GalacticAge(30)
+    expect(galacticAge.mercuryYears()).toEqual(125);
+  });
+
+
 });
