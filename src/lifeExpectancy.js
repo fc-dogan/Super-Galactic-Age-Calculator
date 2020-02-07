@@ -17,9 +17,13 @@ export class LifeExpectancy {
 
   checkSmoking(smoking) {
     this.smoking = smoking;
-  //   if (this.smoking === "never"){
-  //     this.avarageLife += 2;
-  //   } else if 
+    if (this.smoking === "never"){
+      this.avarageLife += 2;
+    } else if (this.smoking === "quit"){
+      this.avarageLife -=1;
+    } else {
+      this.avarageLife -= 4;
+    }
    }
 
 }
