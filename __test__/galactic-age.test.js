@@ -40,9 +40,11 @@ describe('LifeExpectancy', () => {
     lifeExpectancy = new LifeExpectancy();
   });
 
-  test('should correctly create lifeExpectancy object with two properties', () => {
+  test('should correctly create lifeExpectancy object with four properties', () => {
     expect(lifeExpectancy.gender).toEqual("");
     expect(lifeExpectancy.smoking).toEqual("");
+    expect(lifeExpectancy.activityLevel).toEqual("");
+    expect(lifeExpectancy.avaregeLife).toEqual(78);
     console.log(lifeExpectancy);
   })
 
