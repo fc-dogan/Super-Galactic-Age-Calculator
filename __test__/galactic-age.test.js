@@ -102,6 +102,10 @@ describe('GalacticYearsLeft', () => {
     expect(galacticYearsLeft.venusYearsLeft()).toEqual(77);
  });
 
+  test('should correctly determine how many Mars years left', () => {
+    expect(galacticYearsLeft.marsYearsLeft()).toEqual(26);
+ });
+
 
 
 });

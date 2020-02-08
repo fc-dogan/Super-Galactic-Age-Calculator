@@ -21,7 +21,7 @@ export class GalacticYearsLeft {
   }
 
   marsYearsLeft() {
-    
+    return this.yearsLeft = Math.round(this.yearsLeft /= 1.88)
   }
 
 }
