@@ -99,7 +99,7 @@ describe('GalacticYearsLeft', () => {
   });
 
   test('should correctly determine how many Venus years left', () => {
-    expect(galacticYearsLeft.venusYearsLeft()).toEqual(200);
+    expect(galacticYearsLeft.venusYearsLeft()).toEqual(77);
  });
 
 
