@@ -8,9 +8,12 @@ export class GalacticYearsLeft {
     this.yearsLeft = yearsLeft;
   }
    
-
   checkYearsLeft() {
     return this.yearsLeft = lifeExpectancy.avarageLife - this.age
+  }
+
+  mercuryYearsLeft() {
+    return this.yearsLeft = Math.round( this.yearsLeft /= .24)
   }
 
 

@@ -1,10 +1,13 @@
 import { GalacticAge } from './../src/galactic-age';
 import { LifeExpectancy } from './../src/lifeExpectancy';
 import { GalacticYearsLeft } from './../src/galactic-years-left';
+import { CalculateGalacticYearsLeft } from './../src/CalculateGalacticYearsLeft';
+
+
 
 describe('GalacticAge', () => {
 
-  var galacticAge;
+  let galacticAge;
 
   beforeEach(() => {
     galacticAge = new GalacticAge(30);
@@ -30,12 +33,14 @@ describe('GalacticAge', () => {
     expect(galacticAge.jupiterYears()).toEqual(3);
   });
 
-
 });
+
+
+
 
 describe('LifeExpectancy', () => {
 
-  var lifeExpectancy;
+  let lifeExpectancy;
 
   beforeEach(() => {
     lifeExpectancy = new LifeExpectancy();
@@ -69,9 +74,11 @@ describe('LifeExpectancy', () => {
 
 });
 
+
+
 describe('GalacticYearsLeft', () => {
 
-  var galacticYearsLeft;
+  let galacticYearsLeft;
 
   beforeEach(() => {
     galacticYearsLeft = new GalacticYearsLeft(30, 48);
@@ -87,4 +94,26 @@ describe('GalacticYearsLeft', () => {
     console.log(galacticYearsLeft.checkYearsLeft());
   });
 
+  test('should correctly determine how many mars years left', () => {
+        expect(galacticYearsLeft.mercuryYearsLeft()).toEqual(48);
+        console.log(galacticAge.mercuryYearsLeft());
+      });
+
 });
+
+
+
+// describe('CalculateGalacticYearsLeft', () => {
+
+//   let calculateGalacticYearsLeft;
+
+//   beforeEach(() => {
+//     calculateGalacticYearsLeft = new CalculateGalacticYearsLeft();
+//   });
+
+//   test('should correctly determine how many mars years left', () => {
+//     expect(calculateGalacticYearsLeft.mercuryYearsLeft()).toEqual(48);
+//     console.log(galacticAge.mercuryYearsLeft());
+//   });
+
+// });

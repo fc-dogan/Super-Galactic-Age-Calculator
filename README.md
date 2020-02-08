@@ -37,6 +37,12 @@ Website application that takes a person's age in years and return their age in M
     * __Input:__ "moderate"
     * __Output:__ 80
 
+* The program determines how many years user left based on user's average life expectancy.
+    * __Input:__ 30
+    * __Output:__ 48
+
+
+
 ## Setup
 
 
