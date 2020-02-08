@@ -54,7 +54,7 @@ Website application that takes a person's age in years and return their age in M
 
 For a mac, run the following command in your terminal:
 
-* $ git clone 
+* $ git clone https://github.com/fc-dogan/Super-Galactic-Age-Calculator.git
 
 * Then open your web browser of choice
 

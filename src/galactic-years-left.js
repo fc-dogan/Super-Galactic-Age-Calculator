@@ -16,5 +16,8 @@ export class GalacticYearsLeft {
     return this.yearsLeft = Math.round( this.yearsLeft /= .24)
   }
 
+  venusYearsLeft() {
+    return this.yearsLeft = Math.round(this.yearsLeft /= .62)
+  }
 
 }

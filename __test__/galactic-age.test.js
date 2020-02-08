@@ -94,10 +94,15 @@ describe('GalacticYearsLeft', () => {
     console.log(galacticYearsLeft.checkYearsLeft());
   });
 
-  test('should correctly determine how many mars years left', () => {
-        expect(galacticYearsLeft.mercuryYearsLeft()).toEqual(48);
-        console.log(galacticAge.mercuryYearsLeft());
-      });
+  test('should correctly determine how many Mercury years left', () => {
+     expect(galacticYearsLeft.mercuryYearsLeft()).toEqual(200);
+  });
+
+  test('should correctly determine how many Venus years left', () => {
+    expect(galacticYearsLeft.venusYearsLeft()).toEqual(200);
+ });
+
+
 
 });
 
