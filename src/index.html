@@ -7,25 +7,29 @@
   <div class="container">
     <h1>Galactic Age Calculator</h1>
     <div id="first-screen">
-      <p>Enter your birth year below and click the calculate button to see how old you would be on other planets.</p>
-      <form>
-        <label for="year">YYYY</label>
-        <input type="text" id="year">
+      <p>Enter your age below and click the calculate button to see how old you would be on other planets.</p>
+      <form id="age-form">
+        <label for="age">Age:</label>
+        <input type="text" id="age">
         <button type="submit">Calculate</button>
       </form>
     </div>
     <div id=second-screen>
       <div class="row">
         <div class="col-md-3">
+          <img src="./../img/mercury-300x300.png" alt="mercury">
           <p><span class="mercury-years"></span> Mercury years.</p>
         </div>
         <div class="col-md-3">
+          <img src="./../img/venus-300x300.png" alt="venus">
           <p><span class="venus-years"></span> Venus years.</p>
         </div>
         <div class="col-md-3">
+          <img src="./../img/mars-300x300.jpg" alt="mars">
           <p><span class="mars-years"></span> Mars years.</p>
         </div>
         <div class="col-md-3">
+          <img src="./../img/jupiter-300x300.png" alt="jupiter">
           <p><span class="jupiter-years"></span> Jupiter years.</p>
         </div>
       </div>
@@ -35,7 +39,28 @@
         <button id="learn-now" type="button">learn now</button>
       </div>
     </div>
-    <div id="third-screen">
+    <div id="questions-screen">
+      <form id="questions-form">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="smoking">Smoking:</label>
+        <select name="smoking" id="smoking">
+          <option value="never">never smoked</option>
+          <option value="quit">quit</option>
+          <option value="still smoke">still smoke</option>
+        </select>
+        <label for="activity-level">Activity level:</label>
+        <select name="activity-level" id="activity-level">
+          <option value="sedentary">Sedentary</option>
+          <option value="moderate">Moderate</option>
+          <option value="high">High</option>
+        </select>
+      </form>
+    </div>
+    <div id="forth-screen">
       <div class="row">
         <div class="col-md-3">
           <p><span class="mercury-years-left"></span> Mercury years left to live.</p>
