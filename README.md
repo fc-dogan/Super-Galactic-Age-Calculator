@@ -41,6 +41,22 @@ Website application that takes a person's age in years and return their age in M
     * __Input:__ 30
     * __Output:__ 48
 
+* The program determines how many Mercury years user left.
+    * __Input:__ 30
+    * __Output:__ 200
+
+* The program determines how many Venus years user left.
+    * __Input:__ 30
+    * __Output:__ 78
+
+* The program determines how many Mars years user left.
+    * __Input:__ 30
+    * __Output:__ 26
+
+* The program determines how many Jupiter years user left.
+    * __Input:__ 30
+    * __Output:__ 4
+
 
 
 ## Setup

@@ -1,8 +1,6 @@
 import { GalacticAge } from './../src/galactic-age';
 import { LifeExpectancy } from './../src/lifeExpectancy';
 import { GalacticYearsLeft } from './../src/galactic-years-left';
-import { CalculateGalacticYearsLeft } from './../src/CalculateGalacticYearsLeft';
-
 
 
 describe('GalacticAge', () => {
@@ -36,8 +34,6 @@ describe('GalacticAge', () => {
 });
 
 
-
-
 describe('LifeExpectancy', () => {
 
   let lifeExpectancy;
@@ -47,7 +43,6 @@ describe('LifeExpectancy', () => {
   });
 
   test('should correctly create lifeExpectancy object with four properties', () => {
-
     expect(lifeExpectancy.gender).toEqual("");
     expect(lifeExpectancy.smoking).toEqual("");
     expect(lifeExpectancy.activityLevel).toEqual("");
@@ -73,7 +68,6 @@ describe('LifeExpectancy', () => {
   });
 
 });
-
 
 
 describe('GalacticYearsLeft', () => {
@@ -110,23 +104,5 @@ describe('GalacticYearsLeft', () => {
     expect(galacticYearsLeft.jupiterYearsLeft()).toEqual(4);
  });
 
-
-
 });
 
-
-
-// describe('CalculateGalacticYearsLeft', () => {
-
-//   let calculateGalacticYearsLeft;
-
-//   beforeEach(() => {
-//     calculateGalacticYearsLeft = new CalculateGalacticYearsLeft();
-//   });
-
-//   test('should correctly determine how many mars years left', () => {
-//     expect(calculateGalacticYearsLeft.mercuryYearsLeft()).toEqual(48);
-//     console.log(galacticAge.mercuryYearsLeft());
-//   });
-
-// });
