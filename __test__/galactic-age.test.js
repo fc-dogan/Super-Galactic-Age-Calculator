@@ -107,7 +107,7 @@ describe('GalacticYearsLeft', () => {
  });
 
   test('should correctly determine how many Jupiter years left', () => {
-    expect(galacticYearsLeft.jupiterYearsLeft()).toEqual(26);
+    expect(galacticYearsLeft.jupiterYearsLeft()).toEqual(4);
  });
 
 
