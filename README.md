@@ -9,9 +9,9 @@
 Website application that takes a person's age in years and return their age in Mercury, Venus, Mars and Jupiter years.
 
 ## Specifications
-
+```
 * The program determines user's age based on a planet's solar years.
-
+```
 * Return user age in Mercury years. 
     * __Input:__ 30
     * __Output:__ 125
@@ -24,9 +24,9 @@ Website application that takes a person's age in years and return their age in M
 * Return user age in Jupiter years. 
     * __Input:__ 30
     * __Output:__ 3
-
+```
 * The program determines the user's average life expectancy based on information that is collect from the user.
-
+```
 * It determines the average life from user gender.
     * __Input:__ "male"
     * __Output:__ 78
@@ -36,24 +36,28 @@ Website application that takes a person's age in years and return their age in M
 * It determines the average life according to the user's activity level.
     * __Input:__ "moderate"
     * __Output:__ 80
+```
+* The program determines how many years a user left based on the user's average life expectancy.
 
-* The program determines how many years user left based on user's average life expectancy.
     * __Input:__ 30
     * __Output:__ 48
-
-* The program determines how many Mercury years user left.
+```
+```
+* The program determines how many years a user left  based on a planet's solar years.
+```
+* It determines how many Mercury years a user left.
     * __Input:__ 30
     * __Output:__ 200
 
-* The program determines how many Venus years user left.
+* It determines how many Venus years a user left.
     * __Input:__ 30
     * __Output:__ 78
 
-* The program determines how many Mars years user left.
+* It determines how many Mars years a user left.
     * __Input:__ 30
     * __Output:__ 26
 
-* The program determines how many Jupiter years user left.
+* It determines how many Jupiter years a user left.
     * __Input:__ 30
     * __Output:__ 4
 
