@@ -5,21 +5,19 @@ export class GalacticAge {
   }
   
   mercuryYears() {
-   return this.age = Math.round(this.age /= .24);
+   return Math.round(this.age / .24);
   }
 
   venusYears() {
-   return this.age = Math.round(this.age /= .62);
+   return Math.round(this.age / .62);
   }
 
   marsYears() {
-    return this.age = Math.round(this.age /= 1.88);
+    return Math.round(this.age / 1.88);
   }
 
   jupiterYears() {
-    return this.age = Math.round(this.age /= 11.86);
+    return Math.round(this.age /= 11.86);
   }
-
-  
 
 }

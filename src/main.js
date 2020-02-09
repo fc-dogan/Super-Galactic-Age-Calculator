@@ -11,13 +11,11 @@ import './../img/mercury-300x300.png';
 import './../img/venus-300x300.png';
 
 
-var newGalacticAge = new GalacticAge();
-
 $(document).ready(function() {
   $("#age-form").submit(function() {
     event.preventDefault();
     let age = parseInt($("#age").val());
-    
+    var newGalacticAge = new GalacticAge(age);
 
     let mercuryYears = newGalacticAge.mercuryYears();
     let venusYears = newGalacticAge.venusYears();
@@ -28,9 +26,7 @@ $(document).ready(function() {
     $(".venus-years").text(venusYears);
     $(".mars-yers").text(marsYears);
     $(".jupiter-years").text(jupiterYears);
-    
-    console.log(mercuryYears);
-    console.log(typeof age);
+
 
   });
 
